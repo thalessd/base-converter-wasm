@@ -6,5 +6,5 @@ This is a simple base converter that uses React with GO WebAssembly. It is a sim
 ```bash
 cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" public
 
-GOOS=js GOARCH=wasm go build -o ./public/base_converter.wasm ./base_converter/main.go
+GOOS=js GOARCH=wasm go build -C ./base_converter -o ../public/base_converter.wasm github.com/thalessd/base-coverter-wasm/base_converter/cmd/wasm
 ```
