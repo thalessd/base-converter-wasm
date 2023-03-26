@@ -21,10 +21,10 @@ function BaseConverterForm({
   const baseOptions = useMemo(
     () => (
       <>
-        <option value={Bases.BASE2}>Base 2</option>,
-        <option value={Bases.BASE8}>Base 8</option>,
-        <option value={Bases.BASE10}>Base 10</option>,
-        <option value={Bases.BASE16}>Base 16</option>,
+        <option value={Bases.BASE2}>Base 2</option>
+        <option value={Bases.BASE8}>Base 8</option>
+        <option value={Bases.BASE10}>Base 10</option>
+        <option value={Bases.BASE16}>Base 16</option>
       </>
     ),
     []
