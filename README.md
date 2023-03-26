@@ -15,3 +15,16 @@ GOOS=js GOARCH=wasm go build -C ./base_converter -o ../public/base_converter.was
 # Run the project
 npm run start
 ```
+
+How to run production mode
+
+```bash
+# Docker and docker-compose are required
+
+# Docker compose up
+docker-compose up -d
+```
+
+---
+
+Thanks for reading!
